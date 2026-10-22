@@ -1,0 +1,1714 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>Sowrote.ai — Your AI Workflow Workspace</title>
+
+  <meta name="description"
+        content="Automate workflows, create content, and simplify your work with Sowrote.ai, your intelligent AI workspace.">
+
+  <meta name="theme-color" content="#09090f">
+  <meta name="color-scheme" content="dark">
+
+  <meta property="og:title" content="Sowrote.ai — Your AI Workflow Workspace">
+  <meta property="og:description"
+        content="Create, automate, and grow with AI-powered workflows.">
+  <meta property="og:type" content="website">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Space+Grotesk:wght@400;500;600;700&display=swap"
+        rel="stylesheet">
+
+  <link rel="stylesheet" href="style.css">
+
+  <script src="script.js" defer></script>
+</head>
+
+<body>
+
+  <!-- Announcement -->
+  <div class="announcement-bar" id="announcementBar">
+    <p>
+      ✨ Meet your new AI workspace.
+      <a href="#features">Explore the features →</a>
+    </p>
+
+    <button class="announcement-close"
+            aria-label="Close announcement">×</button>
+  </div>
+
+  <!-- Header -->
+  <header class="site-header">
+    <nav class="navbar container" aria-label="Main navigation">
+
+      <a href="#home" class="logo" aria-label="Sowrote.ai home">
+        <span class="logo-icon">S</span>
+        <span>Sowrote<span class="logo-accent">.ai</span></span>
+      </a>
+
+      <button class="mobile-menu-toggle"
+              aria-label="Toggle navigation"
+              aria-expanded="false"
+              aria-controls="navLinks">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+
+      <div class="nav-links" id="navLinks">
+        <a href="#features">Features</a>
+        <a href="#workflow">Workflow</a>
+        <a href="#dashboard">Platform</a>
+        <a href="#integrations">Integrations</a>
+        <a href="#pricing">Pricing</a>
+        <a href="#faq">FAQ</a>
+      </div>
+
+      <div class="nav-actions">
+        <button class="btn btn-ghost" data-modal-target="#loginModal">
+          Log in
+        </button>
+
+        <a href="#get-started" class="btn btn-primary btn-small">
+          Get started <span>↗</span>
+        </a>
+      </div>
+
+    </nav>
+  </header>
+
+  <main>
+
+    <!-- Hero -->
+    <section class="hero section-padding" id="home">
+      <div class="hero-glow hero-glow-one"></div>
+      <div class="hero-glow hero-glow-two"></div>
+
+      <div class="container hero-grid">
+
+        <div class="hero-copy">
+
+          <div class="eyebrow">
+            <span class="status-dot"></span>
+            YOUR AI-POWERED WORKSPACE
+          </div>
+
+          <h1>
+            Work smarter.<br>
+            Create <span class="gradient-text">without limits.</span>
+          </h1>
+
+          <p class="hero-description">
+            Bring your ideas, content, and workflows together.
+            Let AI handle repetitive work while you focus on
+            building something extraordinary.
+          </p>
+
+          <div class="hero-actions">
+            <a href="#get-started" class="btn btn-primary btn-large">
+              Start creating <span>→</span>
+            </a>
+
+            <a href="#dashboard" class="btn btn-secondary btn-large">
+              Explore platform <span>↗</span>
+            </a>
+          </div>
+
+          <div class="hero-proof">
+            <div class="avatar-stack" aria-hidden="true">
+              <span>A</span>
+              <span>M</span>
+              <span>J</span>
+              <span>+</span>
+            </div>
+
+            <div>
+              <strong>Your next productivity upgrade</strong>
+              <p>One workspace. More possibilities.</p>
+            </div>
+          </div>
+
+        </div>
+
+        <!-- Hero Product Preview -->
+        <div class="hero-visual">
+
+          <div class="floating-card floating-card-top">
+            <span class="floating-icon">✦</span>
+            <div>
+              <strong>AI Assistant</strong>
+              <small>Ready to help</small>
+            </div>
+            <span class="online-dot"></span>
+          </div>
+
+          <div class="hero-window glass-card">
+
+            <div class="window-toolbar">
+              <div class="window-dots">
+                <i></i><i></i><i></i>
+              </div>
+
+              <span>workspace.sowrote.ai</span>
+              <span>•••</span>
+            </div>
+
+            <div class="workspace-preview">
+
+              <aside class="preview-sidebar">
+                <div class="preview-brand">S<span>.</span></div>
+
+                <button class="preview-nav active" title="Home">⌂</button>
+                <button class="preview-nav" title="AI Tools">✧</button>
+                <button class="preview-nav" title="Workflows">⟳</button>
+                <button class="preview-nav" title="Analytics">▥</button>
+
+                <div class="preview-sidebar-bottom">⚙</div>
+              </aside>
+
+              <div class="preview-main">
+
+                <div class="preview-heading">
+                  <div>
+                    <small>YOUR WORKSPACE</small>
+                    <h3>Good things start here.</h3>
+                  </div>
+                  <div class="preview-avatar">T</div>
+                </div>
+
+                <div class="preview-search">
+                  <span>✧</span>
+                  <span>What would you like to create?</span>
+                  <span class="search-shortcut">↵</span>
+                </div>
+
+                <div class="preview-label">QUICK ACTIONS</div>
+
+                <div class="preview-tools">
+                  <button class="preview-tool" data-demo-tool="content">
+                    <span class="tool-icon violet">✎</span>
+                    <strong>Write content</strong>
+                    <small>Ideas into words</small>
+                  </button>
+
+                  <button class="preview-tool" data-demo-tool="workflow">
+                    <span class="tool-icon blue">⟳</span>
+                    <strong>Build workflow</strong>
+                    <small>Automate your work</small>
+                  </button>
+
+                  <button class="preview-tool" data-demo-tool="analytics">
+                    <span class="tool-icon pink">▥</span>
+                    <strong>Analyze data</strong>
+                    <small>Discover insights</small>
+                  </button>
+
+                  <button class="preview-tool" data-demo-tool="ideas">
+                    <span class="tool-icon orange">✦</span>
+                    <strong>Explore ideas</strong>
+                    <small>Think differently</small>
+                  </button>
+                </div>
+
+                <div class="preview-bottom-card">
+                  <div>
+                    <span class="mini-badge">AI WORKSPACE</span>
+                    <h4>Your next big idea starts here.</h4>
+                    <p>Bring your workflow into focus.</p>
+                  </div>
+                  <span class="preview-sparkle">✳</span>
+                </div>
+
+              </div>
+            </div>
+          </div>
+
+          <div class="floating-card floating-card-bottom">
+            <span class="success-icon">✓</span>
+            <div>
+              <strong>Workflow ready</strong>
+              <small>Preview completed</small>
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+
+      <div class="container hero-bottom">
+        <span>BUILT FOR YOUR EVERYDAY WORKFLOW</span>
+        <div class="hero-keywords">
+          <span>✦ Creators</span>
+          <span>↗ Founders</span>
+          <span>⌘ Teams</span>
+          <span>◈ Professionals</span>
+        </div>
+      </div>
+
+    </section>
+
+    <!-- Features -->
+    <section class="features-section section-padding" id="features">
+
+      <div class="container">
+
+        <div class="section-heading">
+          <div class="eyebrow">ONE WORKSPACE, MANY POSSIBILITIES</div>
+
+          <h2>
+            Everything you need.<br>
+            <span class="gradient-text">Nothing holding you back.</span>
+          </h2>
+
+          <p>
+            Simplify the way you work with intelligent tools
+            designed to fit your workflow.
+          </p>
+        </div>
+
+        <div class="feature-tabs" role="tablist"
+             aria-label="Feature categories">
+
+          <button class="feature-tab active"
+                  role="tab"
+                  aria-selected="true"
+                  data-feature="automation">Automation</button>
+
+          <button class="feature-tab"
+                  role="tab"
+                  aria-selected="false"
+                  data-feature="content">AI Content</button>
+
+          <button class="feature-tab"
+                  role="tab"
+                  aria-selected="false"
+                  data-feature="analytics">Analytics</button>
+
+        </div>
+
+        <div class="feature-showcase glass-card">
+
+          <div class="feature-copy">
+
+            <span class="feature-number">01 / INTELLIGENCE</span>
+
+            <h3>Automate your repetitive work.</h3>
+
+            <p>
+              Turn repetitive tasks into streamlined workflows
+              and spend more time on work that matters.
+            </p>
+
+            <ul class="feature-list">
+              <li>Automate recurring tasks</li>
+              <li>Connect tools and processes</li>
+              <li>Monitor workflow activity</li>
+            </ul>
+
+            <a href="#workflow" class="text-link">
+              Explore workflows <span>→</span>
+            </a>
+
+          </div>
+
+          <div class="feature-visual">
+
+            <div class="workflow-mini">
+
+              <div class="workflow-mini-heading">
+                <div>
+                  <small>WORKFLOW BUILDER</small>
+                  <h4>My smart workflow</h4>
+                </div>
+                <span class="live-pill">● Preview</span>
+              </div>
+
+              <div class="flow-node">
+                <span class="node-icon violet">⚡</span>
+                <div>
+                  <strong>Trigger</strong>
+                  <small>New task created</small>
+                </div>
+                <span class="node-status">✓</span>
+              </div>
+
+              <div class="flow-connector"></div>
+
+              <div class="flow-node">
+                <span class="node-icon blue">✧</span>
+                <div>
+                  <strong>AI processing</strong>
+                  <small>Analyze and organize</small>
+                </div>
+                <span class="node-status">✓</span>
+              </div>
+
+              <div class="flow-connector"></div>
+
+              <div class="flow-node">
+                <span class="node-icon pink">↗</span>
+                <div>
+                  <strong>Final action</strong>
+                  <small>Prepare an output</small>
+                </div>
+                <span class="node-status">✓</span>
+              </div>
+
+              <button class="btn btn-primary btn-small workflow-run">
+                <span>▶</span> Preview workflow
+              </button>
+
+              <p class="demo-output" aria-live="polite"></p>
+
+            </div>
+
+          </div>
+
+        </div>
+
+        <!-- Feature Cards -->
+        <div class="feature-card-grid">
+
+          <article class="feature-card glass-card">
+            <div class="feature-card-icon violet">✧</div>
+            <h3>AI Content Creation</h3>
+            <p>
+              Create first drafts, brainstorm ideas, and organize
+              your content creation process.
+            </p>
+            <a href="#ai-tools" class="text-link">Explore tool →</a>
+          </article>
+
+          <article class="feature-card glass-card">
+            <div class="feature-card-icon blue">⟳</div>
+            <h3>Workflow Automation</h3>
+            <p>
+              Design repeatable processes to reduce manual work
+              and keep tasks organized.
+            </p>
+            <a href="#workflow" class="text-link">Explore workflows →</a>
+          </article>
+
+          <article class="feature-card glass-card">
+            <div class="feature-card-icon pink">▥</div>
+            <h3>Smart Analytics</h3>
+            <p>
+              Explore sample metrics, visualize trends, and
+              understand your workflow performance.
+            </p>
+            <a href="#dashboard" class="text-link">Explore analytics →</a>
+          </article>
+
+          <article class="feature-card glass-card">
+            <div class="feature-card-icon orange">◈</div>
+            <h3>Centralized Workspace</h3>
+            <p>
+              Keep projects, tools, and ideas organized in
+              one streamlined interface.
+            </p>
+            <a href="#dashboard" class="text-link">Explore workspace →</a>
+          </article>
+
+          <article class="feature-card glass-card">
+            <div class="feature-card-icon green">⌘</div>
+            <h3>Team Collaboration</h3>
+            <p>
+              Prepare a shared workflow experience for
+              collaboration and team productivity.
+            </p>
+            <a href="#get-started" class="text-link">Get started →</a>
+          </article>
+
+          <article class="feature-card glass-card">
+            <div class="feature-card-icon purple">⚙</div>
+            <h3>Custom Integrations</h3>
+            <p>
+              Plan connections between your tools and
+              build a more connected workflow.
+            </p>
+            <a href="#integrations" class="text-link">Explore integrations →</a>
+          </article>
+
+        </div>
+
+      </div>
+
+    </section>
+
+    <!-- AI Tools -->
+    <section class="ai-tools-section section-padding" id="ai-tools">
+
+      <div class="container">
+
+        <div class="section-heading">
+          <div class="eyebrow">YOUR CREATIVE TOOLKIT</div>
+          <h2>
+            Meet your next<br>
+            <span class="gradient-text">favorite AI tools.</span>
+          </h2>
+          <p>
+            Explore the tools you need to move from idea
+            to execution.
+          </p>
+        </div>
+
+        <div class="ai-tools-grid">
+
+          <article class="ai-tool-card glass-card">
+            <div class="ai-tool-top">
+              <span class="feature-card-icon violet">✎</span>
+              <span class="tool-category">WRITING</span>
+            </div>
+            <h3>AI Writer</h3>
+            <p>Draft blog ideas, emails, and marketing copy.</p>
+            <button class="btn btn-secondary btn-full"
+                    data-open-tool="writer">Open tool →</button>
+          </article>
+
+          <article class="ai-tool-card glass-card">
+            <div class="ai-tool-top">
+              <span class="feature-card-icon pink">✦</span>
+              <span class="tool-category">BRAINSTORMING</span>
+            </div>
+            <h3>Idea Generator</h3>
+            <p>Explore concepts and develop creative directions.</p>
+            <button class="btn btn-secondary btn-full"
+                    data-open-tool="ideas">Open tool →</button>
+          </article>
+
+          <article class="ai-tool-card glass-card">
+            <div class="ai-tool-top">
+              <span class="feature-card-icon blue">▥</span>
+              <span class="tool-category">ANALYSIS</span>
+            </div>
+            <h3>Text Summarizer</h3>
+            <p>Turn longer text into concise key takeaways.</p>
+            <button class="btn btn-secondary btn-full"
+                    data-open-tool="summarizer">Open tool →</button>
+          </article>
+
+          <article class="ai-tool-card glass-card">
+            <div class="ai-tool-top">
+              <span class="feature-card-icon orange">↗</span>
+              <span class="tool-category">MARKETING</span>
+            </div>
+            <h3>Campaign Planner</h3>
+            <p>Organize campaign ideas, tasks, and next steps.</p>
+            <button class="btn btn-secondary btn-full"
+                    data-open-tool="campaign">Open tool →</button>
+          </article>
+
+        </div>
+
+      </div>
+
+    </section>
+
+    <!-- Interactive AI Playground -->
+    <section class="playground-section section-padding" id="playground">
+
+      <div class="container">
+
+        <div class="playground-grid">
+
+          <div class="playground-copy">
+            <div class="eyebrow">TRY THE WORKSPACE</div>
+
+            <h2>
+              Your idea in.<br>
+              <span class="gradient-text">Possibilities out.</span>
+            </h2>
+
+            <p>
+              Explore an interactive frontend preview.
+              Select a task, add your prompt, and see how the
+              workspace could organize your request.
+            </p>
+
+            <div class="playground-points">
+              <span>✓ Multiple task types</span>
+              <span>✓ Editable prompts</span>
+              <span>✓ Copyable sample output</span>
+            </div>
+
+            <p class="muted-note">
+              This interactive preview uses sample responses.
+              Connect an AI API for real generation.
+            </p>
+          </div>
+
+          <div class="playground-panel glass-card">
+
+            <div class="playground-panel-header">
+              <div>
+                <span class="online-dot"></span>
+                AI PLAYGROUND
+              </div>
+              <span class="mini-badge">FRONTEND DEMO</span>
+            </div>
+
+            <form id="playgroundForm">
+
+              <label for="toolType">Choose a tool</label>
+
+              <select id="toolType" name="toolType">
+                <option value="writer">AI Writer</option>
+                <option value="ideas">Idea Generator</option>
+                <option value="summarizer">Text Summarizer</option>
+                <option value="campaign">Campaign Planner</option>
+              </select>
+
+              <label for="promptInput">Your instructions</label>
+
+              <textarea id="promptInput"
+                        name="prompt"
+                        rows="5"
+                        maxlength="2000"
+                        required
+                        placeholder="Example: Give me five creative ideas for a productivity app..."></textarea>
+
+              <div class="textarea-meta">
+                <span>Be specific for better results.</span>
+                <span id="promptCounter">0 / 2000</span>
+              </div>
+
+              <button class="btn btn-primary btn-full btn-large"
+                      type="submit" id="generateButton">
+                ✧ Generate preview
+              </button>
+
+            </form>
+
+            <div class="playground-result" id="playgroundResult"
+                 aria-live="polite" hidden>
+              <div class="result-heading">
+                <strong>Generated preview</strong>
+                <button type="button" class="text-button"
+                        id="copyResult">Copy output</button>
+              </div>
+              <div id="resultContent"></div>
+            </div>
+
+          </div>
+
+        </div>
+
+      </div>
+
+    </section>
+
+    <!-- Workflow -->
+    <section class="workflow-section section-padding" id="workflow">
+
+      <div class="container">
+
+        <div class="section-heading">
+          <div class="eyebrow">A SIMPLER WAY TO WORK</div>
+          <h2>
+            From scattered tasks<br>
+            to <span class="gradient-text">connected workflows.</span>
+          </h2>
+          <p>
+            Organize your work into clear steps that are easier
+            to understand and manage.
+          </p>
+        </div>
+
+        <div class="workflow-steps">
+
+          <article class="workflow-step">
+            <span class="step-number">01</span>
+            <div class="step-icon">✧</div>
+            <h3>Choose your task</h3>
+            <p>Start with an idea, a recurring task, or a project.</p>
+          </article>
+
+          <div class="step-arrow">→</div>
+
+          <article class="workflow-step">
+            <span class="step-number">02</span>
+            <div class="step-icon">⟳</div>
+            <h3>Build your workflow</h3>
+            <p>Arrange the actions and tools your process needs.</p>
+          </article>
+
+          <div class="step-arrow">→</div>
+
+          <article class="workflow-step">
+            <span class="step-number">03</span>
+            <div class="step-icon">↗</div>
+            <h3>Review your output</h3>
+            <p>Check results and refine the process as needed.</p>
+          </article>
+
+        </div>
+
+        <div class="workflow-builder glass-card">
+
+          <div class="builder-header">
+            <div>
+              <span class="mini-badge">INTERACTIVE PREVIEW</span>
+              <h3>Build a sample workflow</h3>
+            </div>
+
+            <button class="btn btn-secondary btn-small"
+                    id="addWorkflowStep">+ Add step</button>
+          </div>
+
+          <div class="builder-canvas" id="workflowCanvas">
+
+            <div class="builder-node">
+              <span class="builder-node-icon violet">⚡</span>
+              <div>
+                <strong>Start</strong>
+                <small>Workflow begins</small>
+              </div>
+              <button class="remove-step" aria-label="Remove step">×</button>
+            </div>
+
+            <div class="builder-connector"></div>
+
+            <div class="builder-node">
+              <span class="builder-node-icon blue">✧</span>
+              <div>
+                <strong>Process task</strong>
+                <small>Prepare the output</small>
+              </div>
+              <button class="remove-step" aria-label="Remove step">×</button>
+            </div>
+
+            <div class="builder-connector"></div>
+
+            <div class="builder-node">
+              <span class="builder-node-icon green">✓</span>
+              <div>
+                <strong>Review</strong>
+                <small>Check the result</small>
+              </div>
+              <button class="remove-step" aria-label="Remove step">×</button>
+            </div>
+
+          </div>
+
+          <div class="builder-footer">
+            <span id="workflowStepCount">3 steps in this preview</span>
+            <button class="btn btn-primary btn-small"
+                    id="runWorkflow">▶ Run preview</button>
+          </div>
+
+          <p class="workflow-status" id="workflowStatus"
+             aria-live="polite"></p>
+
+        </div>
+
+      </div>
+
+    </section>
+
+    <!-- Dashboard -->
+    <section class="product-section section-padding" id="dashboard">
+
+      <div class="container">
+
+        <div class="section-heading">
+          <div class="eyebrow">YOUR WORK, IN ONE PLACE</div>
+          <h2>
+            A workspace that<br>
+            <span class="gradient-text">keeps you in control.</span>
+          </h2>
+          <p>
+            Explore a responsive dashboard concept with
+            sample analytics and navigation.
+          </p>
+        </div>
+
+        <div class="dashboard glass-card">
+
+          <aside class="dashboard-sidebar">
+
+            <a href="#dashboard" class="dashboard-brand">
+              <span class="logo-icon">S</span> Sowrote<span>.</span>
+            </a>
+
+            <span class="sidebar-label">WORKSPACE</span>
+
+            <button class="dashboard-nav active"
+                    data-dashboard-title="Overview">
+              <span>▦</span> Overview
+            </button>
+
+            <button class="dashboard-nav"
+                    data-dashboard-title="AI Tools">
+              <span>✧</span> AI Tools
+            </button>
+
+            <button class="dashboard-nav"
+                    data-dashboard-title="Workflows">
+              <span>⟳</span> Workflows
+            </button>
+
+            <button class="dashboard-nav"
+                    data-dashboard-title="Projects">
+              <span>▤</span> Projects
+            </button>
+
+            <button class="dashboard-nav"
+                    data-dashboard-title="Analytics">
+              <span>▥</span> Analytics
+            </button>
+
+            <span class="sidebar-label sidebar-label-bottom">PREFERENCES</span>
+
+            <button class="dashboard-nav"
+                    data-dashboard-title="Settings">
+              <span>⚙</span> Settings
+            </button>
+
+            <div class="sidebar-profile">
+              <span class="profile-avatar">T</span>
+              <div>
+                <strong>Your workspace</strong>
+                <small>Demo account</small>
+              </div>
+            </div>
+
+          </aside>
+
+          <div class="dashboard-content">
+
+            <div class="dashboard-topbar">
+
+              <div>
+                <small>MONDAY WORKSPACE</small>
+                <h3>Overview</h3>
+              </div>
+
+              <div class="dashboard-topbar-actions">
+                <button class="icon-button" aria-label="Notifications">♧</button>
+                <span class="profile-avatar">T</span>
+              </div>
+
+            </div>
+
+            <div class="dashboard-welcome">
+              <div>
+                <h4>Your workspace at a glance.</h4>
+                <p>Explore the sample activity below.</p>
+              </div>
+
+              <button class="btn btn-primary btn-small"
+                      data-open-tool="writer">+ New task</button>
+            </div>
+
+            <div class="dashboard-stats">
+
+              <article class="stat-card">
+                <span class="stat-label">Projects</span>
+                <strong>12</strong>
+                <small class="stat-neutral">Sample data</small>
+              </article>
+
+              <article class="stat-card">
+                <span class="stat-label">Workflows</span>
+                <strong>08</strong>
+                <small class="stat-neutral">Sample data</small>
+              </article>
+
+              <article class="stat-card">
+                <span class="stat-label">Tasks completed</span>
+                <strong>124</strong>
+                <small class="stat-neutral">Sample data</small>
+              </article>
+
+              <article class="stat-card">
+                <span class="stat-label">Activity score</span>
+                <strong>86%</strong>
+                <small class="stat-neutral">Illustrative metric</small>
+              </article>
+
+            </div>
+
+            <div class="dashboard-panels">
+
+              <div class="dashboard-panel">
+
+                <div class="panel-heading">
+                  <div>
+                    <h4>Workspace activity</h4>
+                    <p>Illustrative weekly overview</p>
+                  </div>
+                  <span class="mini-badge">DEMO DATA</span>
+                </div>
+
+                <div class="chart" role="img"
+                     aria-label="Illustrative weekly activity bar chart">
+
+                  <div class="chart-y-labels">
+                    <span>100</span>
+                    <span>75</span>
+                    <span>50</span>
+                    <span>25</span>
+                    <span>0</span>
+                  </div>
+
+                  <div class="chart-bars">
+                    <div class="chart-column">
+                      <span class="chart-bar" style="--bar-height:45%"></span>
+                      <small>Mon</small>
+                    </div>
+                    <div class="chart-column">
+                      <span class="chart-bar" style="--bar-height:70%"></span>
+                      <small>Tue</small>
+                    </div>
+                    <div class="chart-column">
+                      <span class="chart-bar" style="--bar-height:55%"></span>
+                      <small>Wed</small>
+                    </div>
+                    <div class="chart-column">
+                      <span class="chart-bar" style="--bar-height:85%"></span>
+                      <small>Thu</small>
+                    </div>
+                    <div class="chart-column">
+                      <span class="chart-bar" style="--bar-height:65%"></span>
+                      <small>Fri</small>
+                    </div>
+                    <div class="chart-column">
+                      <span class="chart-bar" style="--bar-height:90%"></span>
+                      <small>Sat</small>
+                    </div>
+                    <div class="chart-column">
+                      <span class="chart-bar" style="--bar-height:50%"></span>
+                      <small>Sun</small>
+                    </div>
+                  </div>
+
+                </div>
+
+              </div>
+
+              <div class="dashboard-panel">
+
+                <div class="panel-heading">
+                  <div>
+                    <h4>Recent activity</h4>
+                    <p>Sample workspace events</p>
+                  </div>
+                </div>
+
+                <div class="activity-list">
+
+                  <div class="activity-item">
+                    <span class="activity-icon violet">✧</span>
+                    <div>
+                      <strong>Content workspace</strong>
+                      <small>Sample project updated</small>
+                    </div>
+                    <span class="activity-time">Demo</span>
+                  </div>
+
+                  <div class="activity-item">
+                    <span class="activity-icon blue">⟳</span>
+                    <div>
+                      <strong>Workflow builder</strong>
+                      <small>Sample workflow reviewed</small>
+                    </div>
+                    <span class="activity-time">Demo</span>
+                  </div>
+
+                  <div class="activity-item">
+                    <span class="activity-icon pink">▥</span>
+                    <div>
+                      <strong>Analytics overview</strong>
+                      <small>Sample report opened</small>
+                    </div>
+                    <span class="activity-time">Demo</span>
+                  </div>
+
+                </div>
+
+              </div>
+
+            </div>
+
+            <p class="dashboard-disclaimer">
+              Dashboard values are illustrative sample data, not live analytics.
+            </p>
+
+          </div>
+
+        </div>
+
+      </div>
+
+    </section>
+
+    <!-- Integrations -->
+    <section class="integrations-section section-padding" id="integrations">
+
+      <div class="container">
+
+        <div class="section-heading">
+          <div class="eyebrow">A CONNECTED WORKSPACE</div>
+          <h2>
+            Your tools.<br>
+            <span class="gradient-text">One smarter workflow.</span>
+          </h2>
+          <p>
+            Plan your tool connections and explore the
+            integration-ready experience.
+          </p>
+        </div>
+
+        <div class="integrations-grid">
+
+          <article class="integration-card glass-card">
+            <span class="integration-logo">G</span>
+            <div><h3>Google Workspace</h3><p>Documents and productivity</p></div>
+            <span class="integration-status">Connect-ready</span>
+          </article>
+
+          <article class="integration-card glass-card">
+            <span class="integration-logo">S</span>
+            <div><h3>Slack</h3><p>Team communication</p></div>
+            <span class="integration-status">Connect-ready</span>
+          </article>
+
+          <article class="integration-card glass-card">
+            <span class="integration-logo">N</span>
+            <div><h3>Notion</h3><p>Notes and knowledge</p></div>
+            <span class="integration-status">Connect-ready</span>
+          </article>
+
+          <article class="integration-card glass-card">
+            <span class="integration-logo">Z</span>
+            <div><h3>Zapier</h3><p>Workflow connections</p></div>
+            <span class="integration-status">Connect-ready</span>
+          </article>
+
+          <article class="integration-card glass-card">
+            <span class="integration-logo">A</span>
+            <div><h3>AI Providers</h3><p>Model API integration</p></div>
+            <span class="integration-status">API required</span>
+          </article>
+
+          <article class="integration-card glass-card">
+            <span class="integration-logo">↗</span>
+            <div><h3>Custom API</h3><p>Build custom connections</p></div>
+            <span class="integration-status">API required</span>
+          </article>
+
+        </div>
+
+        <p class="integration-note">
+          These are integration targets. OAuth, API credentials,
+          and server-side connection logic are required to activate them.
+        </p>
+
+      </div>
+
+    </section>
+
+    <!-- Security -->
+    <section class="security-section section-padding" id="security">
+
+      <div class="container security-grid">
+
+        <div>
+          <div class="eyebrow">BUILT WITH CARE</div>
+
+          <h2>
+            Productivity matters.<br>
+            <span class="gradient-text">So does trust.</span>
+          </h2>
+
+          <p>
+            A thoughtful product foundation includes secure
+            authentication, controlled access, privacy-aware
+            data handling, and reliable infrastructure.
+          </p>
+
+          <a href="#get-started" class="btn btn-secondary">
+            Explore the workspace →
+          </a>
+        </div>
+
+        <div class="security-list">
+
+          <article class="security-item">
+            <span>◇</span>
+            <div>
+              <h3>Access control</h3>
+              <p>Plan authentication, user roles, and permissions.</p>
+            </div>
+          </article>
+
+          <article class="security-item">
+            <span>⌑</span>
+            <div>
+              <h3>Privacy-aware design</h3>
+              <p>Use data minimization and appropriate retention policies.</p>
+            </div>
+          </article>
+
+          <article class="security-item">
+            <span>⚙</span>
+            <div>
+              <h3>Reliable infrastructure</h3>
+              <p>Prepare server-side validation, logging, and monitoring.</p>
+            </div>
+          </article>
+
+        </div>
+
+      </div>
+
+    </section>
+
+    <!-- Pricing -->
+    <section class="pricing-section section-padding" id="pricing">
+
+      <div class="container">
+
+        <div class="section-heading">
+          <div class="eyebrow">SIMPLE, FLEXIBLE PLANS</div>
+
+          <h2>
+            Find your way<br>
+            <span class="gradient-text">to work smarter.</span>
+          </h2>
+
+          <p>
+            Compare illustrative plans for different workflow needs.
+          </p>
+
+          <div class="billing-control">
+
+            <span class="billing-label active"
+                  data-billing="monthly">Monthly</span>
+
+            <label class="billing-switch">
+              <input type="checkbox" id="billingToggle"
+                     aria-label="Switch to yearly pricing">
+              <span class="billing-slider"></span>
+            </label>
+
+            <span class="billing-label" data-billing="yearly">
+              Yearly <span class="save-badge">Save 20%</span>
+            </span>
+
+          </div>
+
+        </div>
+
+        <div class="pricing-grid">
+
+          <article class="pricing-card glass-card">
+
+            <div class="plan-name">Starter</div>
+            <p class="plan-description">Explore your AI workflow.</p>
+
+            <div class="plan-price">
+              <span class="currency">₹</span>
+              <strong data-monthly="0" data-yearly="0">0</strong>
+              <span class="billing-period">/month</span>
+            </div>
+
+            <p class="plan-caption">For getting started</p>
+
+            <a href="#get-started"
+               class="btn btn-secondary btn-full">Start free</a>
+
+            <div class="plan-divider"></div>
+
+            <p class="plan-features-heading">What's included</p>
+
+            <ul class="plan-features">
+              <li>✓ Basic workspace preview</li>
+              <li>✓ Sample AI tools</li>
+              <li>✓ Workflow builder preview</li>
+              <li>✓ Community-style help section</li>
+            </ul>
+
+          </article>
+
+          <article class="pricing-card pricing-featured">
+
+            <div class="popular-badge">MOST POPULAR</div>
+
+            <div class="plan-name">Pro</div>
+            <p class="plan-description">For focused creators.</p>
+
+            <div class="plan-price">
+              <span class="currency">₹</span>
+              <strong data-monthly="799" data-yearly="7670">799</strong>
+              <span class="billing-period">/month</span>
+            </div>
+
+            <p class="plan-caption">Illustrative pricing</p>
+
+            <a href="#get-started"
+               class="btn btn-primary btn-full">Choose Pro</a>
+
+            <div class="plan-divider"></div>
+
+            <p class="plan-features-heading">Everything in Starter, plus</p>
+
+            <ul class="plan-features">
+              <li>✓ Expanded AI workspace</li>
+              <li>✓ Advanced workflow concepts</li>
+              <li>✓ Analytics dashboard</li>
+              <li>✓ Integration-ready architecture</li>
+              <li>✓ Priority support concept</li>
+            </ul>
+
+          </article>
+
+          <article class="pricing-card glass-card">
+
+            <div class="plan-name">Team</div>
+            <p class="plan-description">For collaborative workflows.</p>
+
+            <div class="plan-price">
+              <span class="currency">₹</span>
+              <strong data-monthly="1999" data-yearly="19190">1999</strong>
+              <span class="billing-period">/month</span>
+            </div>
+
+            <p class="plan-caption">Illustrative pricing</p>
+
+            <a href="#get-started"
+               class="btn btn-secondary btn-full">Explore Team</a>
+
+            <div class="plan-divider"></div>
+
+            <p class="plan-features-heading">Everything in Pro, plus</p>
+
+            <ul class="plan-features">
+              <li>✓ Team workspace concept</li>
+              <li>✓ Shared workflow concepts</li>
+              <li>✓ Role-based access planning</li>
+              <li>✓ Custom integration planning</li>
+              <li>✓ Team administration concept</li>
+            </ul>
+
+          </article>
+
+        </div>
+
+        <p class="pricing-disclaimer">
+          Prices and plan features are illustrative placeholders.
+          Connect a billing system and configure actual entitlements
+          before accepting payments.
+        </p>
+
+      </div>
+
+    </section>
+
+    <!-- Testimonials -->
+    <section class="testimonials-section section-padding" id="testimonials">
+
+      <div class="container">
+
+        <div class="section-heading">
+          <div class="eyebrow">THE PRODUCT VISION</div>
+
+          <h2>
+            Designed around<br>
+            <span class="gradient-text">the way you work.</span>
+          </h2>
+
+          <p>
+            A product experience built around clarity,
+            organization, and momentum.
+          </p>
+        </div>
+
+        <div class="testimonial-grid">
+
+          <article class="testimonial-card glass-card">
+            <div class="testimonial-stars">★★★★★</div>
+            <blockquote>
+              “A clean workspace can make complex projects
+              feel much easier to manage.”
+            </blockquote>
+            <div class="testimonial-author">
+              <span class="testimonial-avatar">C</span>
+              <div>
+                <strong>Creator workspace</strong>
+                <small>Illustrative product quote</small>
+              </div>
+            </div>
+          </article>
+
+          <article class="testimonial-card glass-card">
+            <div class="testimonial-stars">★★★★★</div>
+            <blockquote>
+              “Bringing everyday tasks into one interface
+              creates a clearer workflow.”
+            </blockquote>
+            <div class="testimonial-author">
+              <span class="testimonial-avatar">F</span>
+              <div>
+                <strong>Founder workspace</strong>
+                <small>Illustrative product quote</small>
+              </div>
+            </div>
+          </article>
+
+          <article class="testimonial-card glass-card">
+            <div class="testimonial-stars">★★★★★</div>
+            <blockquote>
+              “A thoughtful interface makes it easier
+              to understand what to do next.”
+            </blockquote>
+            <div class="testimonial-author">
+              <span class="testimonial-avatar">T</span>
+              <div>
+                <strong>Team workspace</strong>
+                <small>Illustrative product quote</small>
+              </div>
+            </div>
+          </article>
+
+        </div>
+
+        <p class="testimonial-disclaimer">
+          These are illustrative quotes, not verified customer testimonials.
+        </p>
+
+      </div>
+
+    </section>
+
+    <!-- Lead Capture -->
+    <section class="lead-section section-padding" id="get-started">
+
+      <div class="container">
+
+        <div class="lead-card">
+
+          <div class="lead-copy">
+            <div class="eyebrow">YOUR NEXT CHAPTER STARTS HERE</div>
+
+            <h2>
+              Make room for<br>
+              <span class="gradient-text">better ideas.</span>
+            </h2>
+
+            <p>
+              Tell us a little about what you want to achieve.
+              Explore the workspace and plan your next steps.
+            </p>
+
+            <div class="lead-benefits">
+              <span>✓ Explore the interface</span>
+              <span>✓ Discover workflow possibilities</span>
+              <span>✓ Plan your AI workspace</span>
+            </div>
+          </div>
+
+          <div class="lead-form-wrapper">
+
+            <h3>Let's get started</h3>
+            <p>Enter your details to try the frontend form.</p>
+
+            <form class="lead-form" id="leadForm">
+
+              <div class="form-group">
+                <label for="leadName">Your name</label>
+                <input type="text"
+                       id="leadName"
+                       name="name"
+                       autocomplete="name"
+                       minlength="2"
+                       maxlength="80"
+                       required
+                       placeholder="Enter your name">
+              </div>
+
+              <div class="form-group">
+                <label for="leadEmail">Email address</label>
+                <input type="email"
+                       id="leadEmail"
+                       name="email"
+                       autocomplete="email"
+                       maxlength="254"
+                       required
+                       placeholder="you@example.com">
+              </div>
+
+              <div class="form-group">
+                <label for="leadGoal">What are you interested in?</label>
+                <select id="leadGoal" name="goal" required>
+                  <option value="">Choose your goal</option>
+                  <option value="content">AI content creation</option>
+                  <option value="automation">Workflow automation</option>
+                  <option value="analytics">Analytics</option>
+                  <option value="team">Team productivity</option>
+                  <option value="other">Something else</option>
+                </select>
+              </div>
+
+              <button class="btn btn-primary btn-full btn-large"
+                      type="submit">Get started →</button>
+
+              <p class="form-message" id="leadFormMessage"
+                 aria-live="polite"></p>
+
+              <small class="form-privacy">
+                Frontend demo only. No data is transmitted by this form.
+              </small>
+
+            </form>
+
+          </div>
+
+        </div>
+
+      </div>
+
+    </section>
+
+    <!-- FAQ -->
+    <section class="faq-section section-padding" id="faq">
+
+      <div class="container faq-container">
+
+        <div class="section-heading">
+          <div class="eyebrow">QUESTIONS, ANSWERED</div>
+          <h2>
+            A little more<br>
+            <span class="gradient-text">clarity.</span>
+          </h2>
+          <p>Understand the workspace before getting started.</p>
+        </div>
+
+        <div class="faq-list">
+
+          <article class="faq-item active">
+            <h3>
+              <button class="faq-question"
+                      aria-expanded="true">
+                What is Sowrote.ai?
+                <span class="faq-plus">+</span>
+              </button>
+            </h3>
+            <div class="faq-answer">
+              <p>
+                Sowrote.ai is presented as an AI workspace concept
+                for content creation, workflow organization, and
+                productivity tools. Live services require implementation.
+              </p>
+            </div>
+          </article>
+
+          <article class="faq-item">
+            <h3>
+              <button class="faq-question"
+                      aria-expanded="false">
+                Can I generate real AI content?
+                <span class="faq-plus">+</span>
+              </button>
+            </h3>
+            <div class="faq-answer">
+              <p>
+                The current frontend includes a sample playground.
+                Real AI generation requires a server-side integration
+                with an AI provider API.
+              </p>
+            </div>
+          </article>
+
+          <article class="faq-item">
+            <h3>
+              <button class="faq-question"
+                      aria-expanded="false">
+                Does the workflow builder execute real tasks?
+                <span class="faq-plus">+</span>
+              </button>
+            </h3>
+            <div class="faq-answer">
+              <p>
+                The frontend builder supports preview interactions.
+                Actual task execution requires backend workflow logic,
+                configured integrations, and appropriate permissions.
+              </p>
+            </div>
+          </article>
+
+          <article class="faq-item">
+            <h3>
+              <button class="faq-question"
+                      aria-expanded="false">
+                Is the interface mobile responsive?
+                <span class="faq-plus">+</span>
+              </button>
+            </h3>
+            <div class="faq-answer">
+              <p>
+                The stylesheet includes responsive layouts for
+                mobile phones, tablets, and larger desktop screens.
+                Actual behavior should be tested across browsers and devices.
+              </p>
+            </div>
+          </article>
+
+          <article class="faq-item">
+            <h3>
+              <button class="faq-question"
+                      aria-expanded="false">
+                Can I connect my own tools?
+                <span class="faq-plus">+</span>
+              </button>
+            </h3>
+            <div class="faq-answer">
+              <p>
+                The interface includes integration-ready sections.
+                Activating third-party tools requires API configuration,
+                OAuth where applicable, and backend implementation.
+              </p>
+            </div>
+          </article>
+
+          <article class="faq-item">
+            <h3>
+              <button class="faq-question"
+                      aria-expanded="false">
+                Can I use this as a real SaaS product?
+                <span class="faq-plus">+</span>
+              </button>
+            </h3>
+            <div class="faq-answer">
+              <p>
+                This is the frontend foundation. Before launching a
+                production SaaS, implement authentication, persistent
+                data storage, server-side validation, AI integrations,
+                billing, monitoring, and security controls.
+              </p>
+            </div>
+          </article>
+
+        </div>
+
+      </div>
+
+    </section>
+
+    <!-- Final CTA -->
+    <section class="final-cta section-padding">
+
+      <div class="container">
+
+        <div class="final-cta-card">
+
+          <div class="cta-orb"></div>
+
+          <div class="eyebrow">READY WHEN YOU ARE</div>
+
+          <h2>
+            Your workflow.<br>
+            Your ideas. <span class="gradient-text">Your way.</span>
+          </h2>
+
+          <p>
+            Explore a more organized way to work with Sowrote.ai.
+          </p>
+
+          <a href="#get-started" class="btn btn-primary btn-large">
+            Explore the workspace →
+          </a>
+
+        </div>
+
+      </div>
+
+    </section>
+
+  </main>
+
+  <!-- Footer -->
+  <footer class="site-footer">
+
+    <div class="container">
+
+      <div class="footer-main">
+
+        <div class="footer-brand">
+          <a href="#home" class="logo">
+            <span class="logo-icon">S</span>
+            <span>Sowrote<span class="logo-accent">.ai</span></span>
+          </a>
+
+          <p>
+            A smarter workspace for ideas, workflows,
+            and the work ahead.
+          </p>
+        </div>
+
+        <div class="footer-column">
+          <h3>Product</h3>
+          <a href="#features">Features</a>
+          <a href="#ai-tools">AI Tools</a>
+          <a href="#workflow">Workflows</a>
+          <a href="#dashboard">Dashboard</a>
+          <a href="#pricing">Pricing</a>
+        </div>
+
+        <div class="footer-column">
+          <h3>Explore</h3>
+          <a href="#integrations">Integrations</a>
+          <a href="#security">Security</a>
+          <a href="#testimonials">Product vision</a>
+          <a href="#faq">FAQs</a>
+        </div>
+
+        <div class="footer-column">
+          <h3>Get started</h3>
+          <a href="#get-started">Contact</a>
+          <button class="footer-link-button"
+                  data-modal-target="#loginModal">Log in</button>
+          <a href="#get-started">Try the demo</a>
+        </div>
+
+      </div>
+
+      <div class="footer-bottom">
+
+        <p>
+          © <span data-current-year></span> Sowrote.ai.
+          All rights reserved.
+        </p>
+
+        <div class="footer-legal">
+          <button data-modal-target="#privacyModal">Privacy</button>
+          <button data-modal-target="#termsModal">Terms</button>
+        </div>
+
+        <a href="#home" class="back-to-top">Back to top ↑</a>
+
+      </div>
+
+    </div>
+
+  </footer>
+
+  <!-- Tool Modal -->
+  <div class="modal-backdrop" id="toolModal"
+       aria-hidden="true">
+    <div class="modal-card" role="dialog"
+         aria-modal="true" aria-labelledby="toolModalTitle">
+
+      <button class="modal-close" aria-label="Close dialog">×</button>
+
+      <div class="eyebrow">SOWROTE.AI TOOLKIT</div>
+      <h2 id="toolModalTitle">Explore an AI tool</h2>
+      <p id="toolModalDescription">
+        Select a tool to explore its frontend preview.
+      </p>
+
+      <a href="#playground"
+         class="btn btn-primary btn-full"
+         id="toolModalAction">Open playground →</a>
+
+      <p class="modal-note">
+        Real AI functionality requires an API integration.
+      </p>
+
+    </div>
+  </div>
+
+  <!-- Login Modal -->
+  <div class="modal-backdrop" id="loginModal"
+       aria-hidden="true">
+    <div class="modal-card" role="dialog"
+         aria-modal="true" aria-labelledby="loginTitle">
+
+      <button class="modal-close" aria-label="Close dialog">×</button>
+
+      <div class="logo modal-logo">
+        <span class="logo-icon">S</span>
+        <span>Sowrote<span class="logo-accent">.ai</span></span>
+      </div>
+
+      <h2 id="loginTitle">Welcome back</h2>
+      <p>This sign-in screen is a frontend preview.</p>
+
+      <form id="loginForm">
+
+        <div class="form-group">
+          <label for="loginEmail">Email address</label>
+          <input id="loginEmail" type="email"
+                 autocomplete="email" required
+                 placeholder="you@example.com">
+        </div>
+
+        <div class="form-group">
+          <label for="loginPassword">Password</label>
+          <input id="loginPassword" type="password"
+                 autocomplete="current-password"
+                 minlength="8" required
+                 placeholder="Enter your password">
+        </div>
+
+        <button class="btn btn-primary btn-full"
+                type="submit">Continue →</button>
+
+        <p class="form-message" id="loginMessage"
+           aria-live="polite"></p>
+
+      </form>
+
+      <p class="modal-note">
+        Real account access requires secure backend authentication.
+      </p>
+
+    </div>
+  </div>
+
+  <!-- Legal Modals -->
+  <div class="modal-backdrop" id="privacyModal"
+       aria-hidden="true">
+    <div class="modal-card" role="dialog"
+         aria-modal="true" aria-labelledby="privacyTitle">
+
+      <button class="modal-close" aria-label="Close dialog">×</button>
+
+      <h2 id="privacyTitle">Privacy information</h2>
+      <p>
+        Before launch, publish a privacy policy describing the
+        actual information collected, its purpose, retention,
+        third-party processing, and user rights. This frontend
+        does not implement a data collection service.
+      </p>
+
+    </div>
+  </div>
+
+  <div class="modal-backdrop" id="termsModal"
+       aria-hidden="true">
+    <div class="modal-card" role="dialog"
+         aria-modal="true" aria-labelledby="termsTitle">
+
+      <button class="modal-close" aria-label="Close dialog">×</button>
+
+      <h2 id="termsTitle">Terms of service</h2>
+      <p>
+        Publish reviewed terms covering service usage, billing,
+        account responsibilities, availability, and applicable law
+        before offering a production service.
+      </p>
+
+    </div>
+  </div>
+
+  <!-- Toast -->
+  <div class="toast" role="status"
+       aria-live="polite"></div>
+
+</body>
+</html>
